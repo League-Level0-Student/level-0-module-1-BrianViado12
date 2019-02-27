@@ -24,7 +24,7 @@ public class SecretMessageBox {
 		if (guess.equals(password)) {
 		JOptionPane.showMessageDialog(null, secretMessage);	
 		} else {
-			JOptionPane.showMessageDialog(null, "Intruder", "ALERT!", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "T-Series", "ALERT!", JOptionPane.ERROR_MESSAGE);
 		
 		
 		}
