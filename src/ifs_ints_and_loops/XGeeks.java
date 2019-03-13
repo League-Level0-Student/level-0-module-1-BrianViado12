@@ -17,12 +17,13 @@ public class XGeeks {
 
 public static void main(String[] args) {
 
-		// 1. Save the superpower for each person in a variable.
+		// 1. Save thesuper power for each person in a variable.
 		String PETA = "PETA";
 		String PETASUPER = "Having everyone hate them";
 		String Jacksepticeye = "Jacksepticeye";
 		String JACKSEPTICEYESUPER = "Roasting";
-		
+		String Pewdiepie = "Pewdiepie";
+		String PEWDIEPIESUPER = "Memes and destroying memes";
 		// 2. Ask the user to enter a name. Store their answer in a variable.
 		String guess = JOptionPane.showInputDialog("Type in name");
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
@@ -31,9 +32,15 @@ public static void main(String[] args) {
 		}
 		if (guess.equals(Jacksepticeye)) {
 			JOptionPane.showMessageDialog(null,  JACKSEPTICEYESUPER);
+		
+		}
+			if (guess.equals(Pewdiepie)) {
+			JOptionPane.showMessageDialog(null, PEWDIEPIESUPER);
+		}
 			
 			
 		}
+		
 	}
-}
+
 

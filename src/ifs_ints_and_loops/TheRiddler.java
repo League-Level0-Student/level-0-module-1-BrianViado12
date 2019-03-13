@@ -33,7 +33,7 @@ public class TheRiddler {
 		// 6. Add some more riddles
 			while (score==1)
 			{
-			String input = JOptionPane.showInputDialog("Give food and I will live. Give me water and I will die. What am I?");
+			String input = JOptionPane.showInputDialog("Give me food and I will live. Give me water and I will die. What am I?");
 				if(input.equalsIgnoreCase("Fire"))
 					{	
 				JOptionPane.showMessageDialog(null, "Correct!");
